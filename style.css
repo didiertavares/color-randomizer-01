@@ -2,7 +2,7 @@
     margin: 0px;
 }
 body{
-    background: beige
+    background: white;
     border: 5px solid lightgrey;
     box-sizing: border-box;
     width: 100%;
@@ -16,27 +16,44 @@ body{
 section{
     border: 5px solid grey;
     padding: 20px;
-    font-family: Impact, sans-serif;
+    font-family: Verdana, sans-serif;
+    color: white;
     background: lightgrey;
     width: 400px;
-    height: 200px;
+    height: 250px;
     border-radius: 40px;
     text-align: center;
 }
 h1  {
-    padding-bottom: 20px;
+    padding: 20px;
     font-size: 30px;
     font-weight: bold;
-    text-shadow: 3px 3px 3px grey;
+    text-shadow: 3px 3px 3px black;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
 }
 p{
     padding: 20px;
-    font-size: 20px;
+    text-shadow: 2px 1px 1px black;
+    font-size: 30px;
     font-weight: bold;
-    text-shadow: 3px 3px 3px gray;
-
+    color: none;
 }
 button{
-    width: 200px;
-    height: ;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 20px;
+    box-shadow: 3px 3px 4px black;
+    border: 3px solid grey;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 240px;
+}
+button:hover{
+    scale: 1.2;
+
 }
