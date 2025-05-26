@@ -20,7 +20,6 @@ section{
     color: white;
     background: lightgrey;
     width: 400px;
-    height: 250px;
     border-radius: 40px;
     text-align: center;
 }
@@ -42,16 +41,23 @@ p{
     font-weight: bold;
     color: none;
 }
+.newcolor{
+    padding: 20px;
+    text-shadow: 2px 1px 1px black;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
 button{
     margin-bottom: 15px;
     cursor: pointer;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 3px 3px 4px black;
     border: 3px solid grey;
     border-radius: 20px;
     font-size: 20px;
     font-weight: bold;
-    width: 240px;
+    width: 100px;
 }
 button:hover{
     scale: 1.2;
